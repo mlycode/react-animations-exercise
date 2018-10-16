@@ -46,7 +46,10 @@ class App extends Component {
         </Transition>
         <Transition 
           in={this.state.modalIsOpen}
-          timeout={300}
+          timeout={{
+            enter: 400,
+            exit: 1000
+          }}
           mountOnEnter
           unmountOnExit>
           {state => (
