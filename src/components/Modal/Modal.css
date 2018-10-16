@@ -12,16 +12,8 @@
     width: 50%;
 }
 
-.fade-slide-enter {
-
-}
-
 .fade-slide-enter-active {
     animation: openModal 0.4s ease-out forwards;
-}
-
-.fade-slide-exit {
-    
 }
 
 .fade-slide-exit-active {
